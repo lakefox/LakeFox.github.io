@@ -5,7 +5,7 @@ window.onload = () => {
   }
 
   document.querySelector(".main").style.top = size+"px";
-  if (window.innerWidth < 400) {
+  if (window.innerWidth < 600) {
     document.querySelector(".header").style.fontSize = "13em";
   } else {
     document.querySelector(".header").style.fontSize = "30em";
@@ -20,7 +20,7 @@ window.onresize = () => {
 
   document.querySelector(".main").style.top = size+"px";
 
-  if (window.innerWidth < 400) {
+  if (window.innerWidth < 600) {
     document.querySelector(".header").style.fontSize = "13em";
   } else {
     document.querySelector(".header").style.fontSize = "30em";
