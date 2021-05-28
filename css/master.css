@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: url("https://raw.githubusercontent.com/lakefox/fyn/master/imgs/ocean.jpg");
+}
+.header {
+  font-size: 30em;
+  font-family: "Anton";
+  top: 50px;
+  color: #cccccc;
+  position: fixed;
+  z-index: -1;
+  word-break: break-all;
+  line-height: 90%;
+}
+.main {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  min-height: 100%;
+  background: #fff;
+  border-top: #f95a5a solid 25px;
+}
+.mission_statement {
+  font-size: 33px;
+  color: #212121;
+  font-family: "Roboto Mono";
+  width: 35%;
+  min-width: 317px;
+  margin-left: 10%;
+  margin-top: 70px;
+}
+.whoweare {
+  font-size: 19px;
+  font-family: "Nunito";
+  width: 40%;
+  min-width: 317px;
+  margin: auto;
+  margin-top: 100px;
+}
+.img_cont {
+    text-align: center;
+    margin: 40px;
+}
+#waves {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+  font-family: 'Roboto Mono';
+}
+
+.contact {
+  text-align: center;
+  font-size: 30px;
+  color: #212121;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  border: 4px solid #f95a5a;
+  width: 126px;
+  border-radius: 12px;
+  padding: 5px;
+  cursor: pointer;
+}
